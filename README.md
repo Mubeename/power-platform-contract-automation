@@ -91,7 +91,6 @@ flowchart LR
 |---|---|
 | ![SharePoint output](screenshots/sharepoint-output.png) | ![Generated PDF](screenshots/generated-pdf.png) |
 
-> Sample data only — client branding has been blurred.
 
 ## 🧠 Key learnings
 
