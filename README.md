@@ -70,11 +70,28 @@ flowchart LR
 
 ## 🖼️ Screenshots
 
-> _Screenshots coming soon._ Client details will be removed or blurred.
+### Power Apps form (4-step wizard)
+| 1. Qualification | 2. Customer & Deal |
+|---|---|
+| ![Qualification](screenshots/app-1-qualification.png) | ![Customer & Deal](screenshots/app-2-customer-deal.png) |
+| **3. Equipment & Pricing** | **4. Summary & Generate** |
+| ![Equipment & Pricing](screenshots/app-3-equipment-pricing.png) | ![Summary & Generate](screenshots/app-4-summary-generate.png) |
 
-| Power Apps form | Flow branches | Generated PDF |
-|---|---|---|
-| _placeholder_ | _placeholder_ | _placeholder_ |
+### Power Automate flow
+**Full flow (left → right):** trigger & base agreement → conditional branch per contract type → country tax addendums
+
+![Flow overview](screenshots/flow-overview.png)
+
+| Trigger & base chain | Branch pattern (per contract type) |
+|---|---|
+| ![Trigger](screenshots/flow-1-trigger-base.png) | ![Branches](screenshots/flow-2-condition-branches.png) |
+
+### Output — DOCX + PDF filed to SharePoint
+| Contracts Document Library | Generated PDF |
+|---|---|
+| ![SharePoint output](screenshots/sharepoint-output.png) | ![Generated PDF](screenshots/generated-pdf.png) |
+
+> Sample data only — client branding has been blurred.
 
 ## 🧠 Key learnings
 
